@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    background: linear-gradient(#829CBC, #6290C8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    
+    font-size: 50px;
+    text-shadow: 0px 0px 5px black;
+}
+
+
+
+.container{
+    width: 100% ;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.team {
+    margin: 10px auto -10px auto;
+    color: white;
+    text-align: center;
+}
+
+#homescore, #guestscore {
+    
+    display: block;
+    margin: 20px auto;
+    border: 2px solid white;
+    
+
+    
+}
+
+#homescore {
+    
+    text-align: center;
+    font-size: 90px; 
+    color: #F43F5E;
+    border-radius: 10px;
+    background-color: black;
+    padding: 15px, 30px;
+    width: 175px;
+    height: auto;
+}
+
+#guestscore {
+    text-align: center;
+    font-size: 90px; 
+    color: #F43F5E;
+    border-radius: 10px;
+    background-color: black;
+    padding: 15px, 30px;
+    width: 175px;
+    height: auto;
+}
+.btn {
+    
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 2px white;
+    
+}
+
+.btn:hover {
+    
+    background-color: rgba(255, 255, 255, 0.25);
+    
+}
+
+.util {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.newbtn {
+    
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 2px white;
+    
+}
+
+.newbtn:hover {
+    
+    background-color: rgba(255, 255, 255, 0.25);
+
+
+}
