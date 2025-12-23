@@ -25,6 +25,10 @@ h3 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 .team {
@@ -50,7 +54,7 @@ h3 {
     color: #F43F5E;
     border-radius: 10px;
     background-color: black;
-    padding: 15px, 30px;
+    padding: 15px 30px;
     width: 175px;
     height: auto;
 }
@@ -61,7 +65,7 @@ h3 {
     color: #F43F5E;
     border-radius: 10px;
     background-color: black;
-    padding: 15px, 30px;
+    padding: 15px 30px;
     width: 175px;
     height: auto;
 }
